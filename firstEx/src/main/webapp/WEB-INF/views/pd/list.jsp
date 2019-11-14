@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>메인 페이지</title>
+<title>상품 목록</title>
 </head>
 <body>
-<h1>메인 페이지입니다.</h1>
+<h3>상품 목록</h3>
+<p>이름 : ${pdVo.name}</p>
+<p>가격 : ${pdVo.price}</p>
 </body>
 </html>
